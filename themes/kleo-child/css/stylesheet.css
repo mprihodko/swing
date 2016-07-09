@@ -1,0 +1,130 @@
+.star-rait{
+	float: left;
+    width: 30px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 22px;
+    opacity: 0.2;
+    color: #6B6464;
+    transition: opacity 0.4s ease-in-out;
+}
+.star-rait.fa-star{
+	color: #FFD427;
+	opacity: 0.9;	
+	transition: opacity 0.4s ease-in-out;
+}
+.star-rait-empty{
+	float: left;
+    width: 30px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 30px;
+    color: #6B6464;
+}
+#actStars{
+	display: inline-block;
+    width: 100%;
+    position: absolute;
+    top: 4px;
+    z-index: 5;
+    left: 0;
+}
+#empStars{
+	display: inline-block;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+}
+#rait{
+	position: relative;
+}
+.text-area-wrap{
+	display: inline-block;
+	width: 100%;
+}
+.text-area-wrap textarea{
+	resize: none;
+	border-radius: 4px;
+	width: 100%;
+	margin: 15px 0;
+}
+.rating-message{
+	display: inline-block;
+	width: 100%;
+}
+.rating-message span{
+	color: #6B6464;
+	font-size: 18px;	
+}
+
+#buddypress div#item-nav ul #feedback-personal-li a:before{
+	content:"\e870"!important;
+}
+#feedback-stream .activity-comments{
+	margin-top: 15px; 
+}
+.feedback-stars{	    
+    position: absolute;
+    width: 21%;
+    display: block;
+    top: 0;
+    right: 0;
+}
+.feedback-stars .active-stars{
+	display: inline-block;
+    width: 100%;
+    position: absolute;
+    top: 4px;
+    z-index: 5;
+    left: 0;
+}
+.feedback-stars .empty-stars{
+	display: inline-block;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+}
+.feedback-stars .empty-stars i{
+	width: 30px;
+    text-align: center;
+    
+    font-size: 30px;
+    color: #6B6464;
+}
+.feedback-stars .active-stars i.fa-star-o{
+	width: 30px;
+    text-align: center;
+    
+    font-size: 22px;
+    opacity: 0.2;
+    color: #6B6464;
+    transition: opacity 0.4s ease-in-out;
+}
+.feedback-stars .active-stars i.fa-star{
+	width: 30px;
+    text-align: center;
+    
+    font-size: 22px;
+    opacity: 0.9;
+    color: #FFD427;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.send-report{
+    border-color: #a40d0f;
+    color: #a40d0f;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 5px 10px;
+    float: right;
+    background: #fff;
+    transition: background 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+    margin: 15px 0;
+}
+a.send-report:hover{
+    color: #ffffff!important;
+    background: #a40d0f;
+    transition: background 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+}
